@@ -16,7 +16,7 @@
     //const options = {type: "native", amount: Moralis.Units.ETH("0.5"), receiver: "0x.."}
     //let result = await Moralis.transfer(options)
   // LOG OUT
-  async function logOut() { alert("logOut");
+  async function logOut() { //alert("logOut");
     await Moralis.User.logOut();
     document.getElementById("btn-j").style.display="block";
     document.getElementById("h2").style.display="block";
